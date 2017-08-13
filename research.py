@@ -62,5 +62,5 @@ if __name__ == '__main__':
 
   final_loss = math.sqrt(total_loss / len(predictions))
 
-  print(final_loss)
+  print('Final score: {}'.format(final_loss))
 
